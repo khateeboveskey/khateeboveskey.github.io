@@ -33,20 +33,16 @@
 			class="fixed top-16 left-0 w-full p-4 pt-0 md:relative md:top-0 md:flex md:w-auto md:bg-transparent md:p-0">
 			<ul class="flex flex-col gap-4 text-lg md:flex-row md:gap-10">
 				<li>
-					<a href="#" class="block border-b pb-2.5 transition-colors md:border-0 md:pb-0">Home</a>
+					<NavLink to="/">Home</NavLink>
 				</li>
 				<li>
-					<a href="#" class="block border-b pb-2.5 transition-colors md:border-0 md:pb-0">About</a>
+					<NavLink to="/">About</NavLink>
 				</li>
 				<li>
-					<a href="#" class="block border-b pb-2.5 transition-colors md:border-0 md:pb-0">
-						Projects
-					</a>
+					<NavLink to="/">Projects</NavLink>
 				</li>
 				<li>
-					<a href="#" class="block border-b pb-2.5 transition-colors md:border-0 md:pb-0">
-						Contact
-					</a>
+					<NavLink to="/">Contact</NavLink>
 				</li>
 			</ul>
 		</nav>
@@ -64,6 +60,7 @@
 
 <script setup lang="ts">
 import CTAButton from '@/components/CTAButton.vue';
+import NavLink from '@/components/Header/NavLink.vue';
 import { ref } from 'vue';
 
 const isMenuOpen = ref(false);
