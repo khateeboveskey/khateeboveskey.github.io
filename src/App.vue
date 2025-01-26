@@ -1,5 +1,5 @@
 <template>
-  <HeaderComp />
+	<HeaderComp />
 </template>
 
 <script setup lang="ts">

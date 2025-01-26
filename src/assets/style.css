@@ -4,9 +4,9 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Funnel Display', sans-serif;
+	--font-sans: 'Funnel Display', sans-serif;
 }
 
 * {
-  @apply transition-all;
+	@apply transition-all;
 }
