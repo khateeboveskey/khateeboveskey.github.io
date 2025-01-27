@@ -1,14 +1,16 @@
 <template>
-	<div
-		class="bg-accent-foreground text-accent-background z-20 w-screen -translate-x-4 -translate-y-12 scale-x-125 -rotate-[3deg] overflow-hidden py-4 text-base uppercase sm:py-6 sm:text-lg md:py-8 md:text-xl">
+	<div class="h-48 -translate-y-20 overflow-hidden">
 		<div
-			class="scale-x-80 whitespace-nowrap"
-			:style="{ transform: `translateX(${scrollPosition}px)` }"
-			style="transition-duration: 0ms">
-			<template v-for="(title, index) in duplicatedTitles" :key="index">
-				{{ title }}
-				<MyLogo class="mx-4 inline-block h-4 -translate-y-0.5 sm:mx-6 sm:h-5 md:mx-10 md:h-6" />
-			</template>
+			class="bg-accent-foreground text-accent-background z-20 w-[calc(100vw+100px)] -translate-x-10 translate-y-11 -rotate-[3deg] overflow-hidden py-4 text-base uppercase sm:py-6 sm:text-lg md:py-8 md:text-xl">
+			<div
+				class="whitespace-nowrap"
+				:style="{ transform: `translateX(${scrollPosition}px)` }"
+				style="transition-duration: 0ms">
+				<template v-for="(title, index) in duplicatedTitles" :key="index">
+					{{ title }}
+					<MyLogo class="mx-4 inline-block h-4 -translate-y-0.5 sm:mx-6 sm:h-5 md:mx-10 md:h-6" />
+				</template>
+			</div>
 		</div>
 	</div>
 </template>
