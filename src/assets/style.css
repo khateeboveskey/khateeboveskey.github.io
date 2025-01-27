@@ -5,8 +5,11 @@
 
 @theme {
 	--font-sans: 'Funnel Display', sans-serif;
+	--color-accent: #e64d33;
+	--color-accent-foreground: #171513;
+	--color-accent-background: #f3f1ef;
 }
 
 * {
-	@apply transition-all;
+	@apply transition-all selection:bg-accent;
 }
