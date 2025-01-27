@@ -21,7 +21,7 @@
 			<img
 				src="@/assets/me.png"
 				alt="Me"
-				class="relative z-10 mx-auto w-full max-w-[300px] saturate-0 sm:max-w-[300px] md:max-w-sm" />
+				class="relative mx-auto w-full max-w-[300px] saturate-0 sm:max-w-[300px] md:max-w-sm" />
 		</div>
 	</section>
 </template>
