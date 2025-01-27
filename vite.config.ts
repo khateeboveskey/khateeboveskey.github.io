@@ -14,4 +14,7 @@ export default defineConfig({
 		},
 	},
 	base: '/khateeb-portfolio/',
+	server: {
+		host: true,
+	},
 });

@@ -3,8 +3,8 @@
 		class="flex flex-col items-center justify-between px-4 py-4 sm:py-12 md:flex-row md:px-32 md:py-8">
 		<div class="mb-8 text-center md:mb-0 md:w-1/3 md:text-left">
 			<h1
-				class="m-4 mb-4 text-3xl font-bold uppercase sm:m-0 sm:mb-6 sm:text-4xl md:text-5xl lg:text-6xl">
-				Hi, I'm Khateeb,
+				class="m-4 mb-4 text-3xl font-bold uppercase sm:m-0 sm:mb-6 sm:text-4xl md:text-4xl lg:text-5xl">
+				Hi, I'm Khateeb.
 				<br />
 				A Full-stack Developer
 				<MyLogo class="inline-block h-5 -translate-y-1 sm:h-6 md:h-8 lg:h-10" />
@@ -21,7 +21,7 @@
 			<img
 				src="@/assets/me.png"
 				alt="Me"
-				class="relative z-10 mx-auto w-full max-w-[300px] saturate-0 sm:max-w-[300px] md:max-w-lg" />
+				class="relative z-10 mx-auto w-full max-w-[300px] saturate-0 sm:max-w-[300px] md:max-w-sm" />
 		</div>
 	</section>
 </template>
