@@ -9,12 +9,12 @@
 				<MyLogo class="inline-block h-5 -translate-y-1 sm:h-6 md:h-8 lg:h-10" />
 				based in Yemen
 			</h1>
-			<p class="mb-6 text-base opacity-90 sm:mb-8 sm:text-lg md:text-xl">
+			<p class="mb-6 text-base opacity-90 sm:mb-8 sm:text-lg md:text-2xl">
 				I code, design, and do good stuff.
 			</p>
 			<CTAButton text="Got an idea?" class="w-full sm:w-auto" />
 		</div>
-		<div class="relative md:me-14 w-full md:w-1/2">
+		<div class="relative w-full md:me-14 md:w-1/2">
 			<MyLogo
 				class="stroke-accent absolute inset-0 z-0 h-full w-full overflow-visible fill-transparent stroke-20" />
 			<img
