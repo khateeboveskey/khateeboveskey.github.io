@@ -13,7 +13,7 @@ jobs:
               uses: xRealNeon/VuePagesAction@1.0.1
               with:
                   username: 'khateeboveskey'
-                  reponame: 'khateeb-portofolio'
+                  reponame: 'khateeb-portfolio'
                   token: ${{ secrets.GITHUB_TOKEN }}
                   gitemail: 'khateeboveskey@gmail.com'
                   gitname: 'khateeboveskey'
