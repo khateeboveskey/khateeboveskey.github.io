@@ -10,8 +10,8 @@
 	--color-accent-background: #f3f1ef;
 }
 
-* {
-	@apply selection:bg-accent transition-all;
+*:not(.text-accent) {
+	@apply selection:bg-accent;
 }
 
 #vue-inspector-container,
