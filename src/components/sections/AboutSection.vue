@@ -1,5 +1,5 @@
 <template>
-	<section id="about" class="flex flex-col gap-10 px-4 pt-4 sm:pt-12 md:px-32 md:pt-24">
+	<section id="about" class="flex flex-col px-4 pt-4 sm:pt-12 md:px-32 md:pt-24">
 		<div class="flex flex-col justify-start gap-10 md:flex-row md:gap-32">
 			<div class="flex flex-col gap-8">
 				<span
@@ -24,13 +24,14 @@
 				</div>
 			</div>
 		</div>
-		<div></div>
+		<StatesBar />
 	</section>
 </template>
 
 <script setup lang="ts">
 import MyLogo from '@/components/MyLogo.vue';
 import SnapInfo from '@/components/sections/about/SnapInfo.vue';
+import StatesBar from '@/components/sections/about/StatesBar.vue';
 
 const snapInfoGroup = [
 	{
