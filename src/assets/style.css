@@ -11,5 +11,10 @@
 }
 
 * {
-	@apply transition-all selection:bg-accent;
+	@apply selection:bg-accent transition-all;
+}
+
+#vue-inspector-container,
+#__vue-devtools-container__ {
+	display: none !important;
 }
