@@ -1,7 +1,8 @@
 <template>
-	<div class="h-48 -translate-y-20 overflow-hidden">
+	<div
+		class="z-20 -mt-16 grid h-[calc(100vh/5)] w-screen place-items-center overflow-hidden sm:overflow-visible">
 		<div
-			class="bg-accent-foreground text-accent-background z-20 w-[calc(100vw+100px)] -translate-x-10 translate-y-11 -rotate-[3deg] overflow-hidden py-4 text-base uppercase sm:py-6 sm:text-lg md:py-8 md:text-xl">
+			class="bg-accent-foreground text-accent-background w-[calc(100vw+100px)] -translate-x-10 -rotate-[3deg] overflow-hidden py-4 text-base uppercase sm:py-6 sm:text-lg md:py-8 md:text-xl">
 			<div
 				class="whitespace-nowrap"
 				:style="{ transform: `translateX(${scrollPosition}px)` }"
