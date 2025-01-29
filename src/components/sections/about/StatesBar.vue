@@ -1,12 +1,14 @@
 <template>
 	<div
-		class="border-accent-foreground my-32 grid w-full grid-cols-3 grid-rows-1 justify-between border-2">
+		class="border-accent-foreground mt-10 grid w-full grid-cols-3 grid-rows-1 justify-between border-2 md:mt-16">
 		<div
-			class="even:bg-accent-foreground even:text-accent-background grid place-items-center py-5"
+			class="even:bg-accent-foreground even:text-accent-background grid place-items-center p-3 sm:p-4 md:p-5"
 			v-for="(si, index) in snapInfoGroup"
 			:key="index">
-			<span class="mb-2 text-6xl font-bold">{{ si.content }}</span>
-			<span class="text-xl uppercase">{{ si.title }}</span>
+			<span class="mb-1 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+				{{ si.content }}
+			</span>
+			<span class="text-sm uppercase sm:text-base md:text-lg lg:text-xl">{{ si.title }}</span>
 		</div>
 	</div>
 </template>

@@ -1,8 +1,11 @@
 <template>
-	<div class="mx-auto mb-16 space-y-2 text-center">
-		<MyLogo class="mx-auto mb-3 w-10" />
-		<h2 class="text-4xl font-black"><slot /></h2>
-		<span v-if="props.subtitle" class="font-medium tracking-widest uppercase">
+	<div
+		class="container mx-auto mt-24 mb-8 space-y-1 px-4 text-center md:mt-44 md:mb-16 md:space-y-3">
+		<MyLogo class="mx-auto mb-4 w-8 md:w-10" />
+		<h2 class="text-2xl leading-tight font-black md:text-3xl lg:text-4xl">
+			<slot />
+		</h2>
+		<span v-if="props.subtitle" class="text-sm font-medium tracking-widest uppercase md:text-base">
 			{{ props.subtitle }}
 		</span>
 	</div>
