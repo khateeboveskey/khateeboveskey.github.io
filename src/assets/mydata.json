@@ -23,51 +23,51 @@
 		"hard": [
 			{
 				"name": "HTML",
-				"deviconClass": "devicon-html5-plain colored"
+				"deviconClass": "devicon-html5-plain"
 			},
 			{
 				"name": "CSS",
-				"deviconClass": "devicon-css3-plain colored"
+				"deviconClass": "devicon-css3-plain"
 			},
 			{
 				"name": "Sass",
-				"deviconClass": "devicon-sass-original colored"
+				"deviconClass": "devicon-sass-original"
 			},
 			{
 				"name": "Bootstrap",
-				"deviconClass": "devicon-bootstrap-plain colored"
+				"deviconClass": "devicon-bootstrap-plain"
 			},
 			{
 				"name": "TailwindCSS",
-				"deviconClass": "devicon-tailwindcss-original colored"
+				"deviconClass": "devicon-tailwindcss-original"
 			},
 			{
 				"name": "JavaScript",
-				"deviconClass": "devicon-javascript-plain colored"
+				"deviconClass": "devicon-javascript-plain"
 			},
 			{
 				"name": "TypeScript",
-				"deviconClass": "devicon-typescript-plain colored"
+				"deviconClass": "devicon-typescript-plain"
 			},
 			{
 				"name": "Vue",
-				"deviconClass": "devicon-vuejs-plain colored"
+				"deviconClass": "devicon-vuejs-plain"
 			},
 			{
 				"name": "React",
-				"deviconClass": "devicon-react-original-wordmark colored"
+				"deviconClass": "devicon-react-original-wordmark"
 			},
 			{
 				"name": "React Native",
-				"deviconClass": "devicon-react-original colored"
+				"deviconClass": "devicon-react-original"
 			},
 			{
 				"name": "PHP",
-				"deviconClass": "devicon-php-plain colored"
+				"deviconClass": "devicon-php-plain"
 			},
 			{
 				"name": "Laravel",
-				"deviconClass": "devicon-laravel-original colored"
+				"deviconClass": "devicon-laravel-original"
 			}
 		]
 	},
