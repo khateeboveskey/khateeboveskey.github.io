@@ -1,9 +1,8 @@
 <template>
 	<section
 		class="flex flex-col items-center justify-between px-4 pt-4 sm:pt-12 md:flex-row md:px-32 md:pt-8">
-		<div class="mb-8 text-center md:mb-0 md:w-1/3 md:text-left">
-			<h1
-				class="m-4 mb-4 text-3xl font-bold uppercase sm:m-0 sm:mb-6 sm:text-4xl md:text-4xl lg:text-5xl">
+		<div class="mb-8 text-center md:mb-12 md:w-1/3 md:text-left">
+			<h1 class="m-4 mb-4 text-3xl font-bold sm:m-0 sm:mb-6 sm:text-4xl md:text-4xl lg:text-5xl">
 				Hi, I'm Khateeb.
 				<br />
 				A Full-stack Developer

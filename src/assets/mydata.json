@@ -158,6 +158,42 @@
 					"urlTo": "UX Writing"
 				},
 				{
+					"title": "When Math Goes Crazy: Why Some Numbers Don't Equal Themselves in Some Programming Languages",
+					"description": "The article explores the strange behavior of NaN (Not-a-Number) in JavaScript, where `NaN !== NaN`, despite being classified as a Number. It delves into data types, IEEE 754 standards, and how programming languages handle numerical operations.",
+					"category": "Programming",
+					"type": "article",
+					"datePublished": "3-7-2003",
+					"url": "https://uxwritingar.com/user-interface/26295",
+					"urlTo": "Linkedin"
+				},
+				{
+					"title": "Norman's Door: How Users Blame Themselves for Bad Design",
+					"description": "The article explored Don Norman’s concept for bad design that confuses users, like unclear push/pull doors. Poor design causes user errors, making people blame themselves. Good user-centered design avoids this in everyday objects and digital interfaces.",
+					"category": "User Experience (UX)",
+					"type": "article",
+					"datePublished": "3-7-2003",
+					"url": "https://uxwritingar.com/user-interface/26295",
+					"urlTo": "Linkedin"
+				},
+				{
+					"title": "Aesthetic-Usability Effect: How Product Beauty Makes Up for Poor Usability",
+					"description": "People perceive beautiful designs as easier to use, even if they’re not. This Aesthetic-Usability Effect makes users overlook flaws, as seen in Apple products. However, good design must balance visual appeal with real usability to be truly effective.",
+					"category": "User Experience (UX)",
+					"type": "article",
+					"datePublished": "3-7-2003",
+					"url": "https://uxwritingar.com/user-interface/26295",
+					"urlTo": "Linkedin"
+				},
+				{
+					"title": "Model Collapse: How Would We Run Out of Data",
+					"description": "People perceive beautiful designs as easier to use, even if they’re not. This Aesthetic-Usability Effect makes users overlook flaws, as seen in Apple products. However, good design must balance visual appeal with real usability to be truly effective.",
+					"category": "Artificial Intelligence (AI)",
+					"type": "article",
+					"datePublished": "3-7-2003",
+					"url": "https://www.linkedin.com/pulse/%D8%A7%D9%86%D9%87%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%83%D9%8A%D9%81-%D9%8A%D9%85%D9%83%D9%86-%D8%A3%D9%86-%D8%AA%D9%86%D8%AA%D9%87%D9%8A-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%AD%D8%B1%D9%81%D9%8A%D8%A7-a-rahman-al-khateeb-z9xgf/",
+					"urlTo": "Linkedin"
+				},
+				{
 					"title": "48 Hours Per Day",
 					"description": "Literature & Poetry",
 					"category": "Literature & Poetry",
