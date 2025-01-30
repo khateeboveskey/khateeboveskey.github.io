@@ -6,6 +6,7 @@
 	<ProfessionalExpSection />
 	<ArticlesSection />
 	<SkillsSection />
+	<ResumeSection />
 </template>
 
 <script setup lang="ts">
@@ -16,4 +17,5 @@ import AboutSection from '@/components/sections/AboutSection.vue';
 import ProfessionalExpSection from '@/components/sections/experience/ProfessionalExpSection.vue';
 import ArticlesSection from '@/components/sections/articles/ArticlesSection.vue';
 import SkillsSection from '@/components/sections/SkillsSection.vue';
+import ResumeSection from '@/components/sections/ResumeSection.vue';
 </script>
