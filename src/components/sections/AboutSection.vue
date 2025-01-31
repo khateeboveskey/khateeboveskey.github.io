@@ -9,7 +9,7 @@
 					Al-Khateeb
 				</span>
 				<h2 class="text-accent-foreground text-left text-4xl font-bold md:text-left md:text-5xl">
-					Hire people who know what they are doing!
+					Crafting digital experiences with passion and precision.
 				</h2>
 			</div>
 			<div class="flex flex-col justify-between gap-8">

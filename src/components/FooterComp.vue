@@ -1,17 +1,21 @@
 <template>
-	<footer class="bg-accent-foreground text-accent-background py-12">
+	<footer class="bg-accent-foreground text-accent-background py-12 pb-20">
 		<div class="container mx-auto px-4 md:px-8">
 			<div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
 				<!-- Brand Section -->
-				<div class="space-y-4">
-					<a href="/" class="group inline-flex items-center gap-3 transition-all hover:opacity-90">
+				<div class="flex flex-col justify-between space-y-4">
+					<a
+						href="/"
+						class="group inline-flex w-fit items-center gap-3 transition-all hover:opacity-90">
 						<MyLogo class="h-8 transition-transform duration-300 group-hover:rotate-60" />
 						<h1 class="text-2xl font-black md:text-3xl">Khateeb</h1>
 					</a>
 					<p class="text-sm text-neutral-300">
 						Crafting digital experiences with passion and precision.
 					</p>
-					<p class="text-sm text-neutral-400">© 2024 Khateeb. All rights reserved.</p>
+					<p class="text-sm text-neutral-400">
+						© {{ new Date().getFullYear() }} Khateeb. All rights reserved.
+					</p>
 				</div>
 
 				<!-- About Section -->
