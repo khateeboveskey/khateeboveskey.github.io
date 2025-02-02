@@ -1,6 +1,6 @@
 <template>
 	<header class="flex flex-row items-center justify-between px-4 py-4 md:px-32 md:py-8">
-		<a href="/" class="group flex flex-row items-center gap-2">
+		<a href="/" class="group flex flex-row items-center gap-2 *:transition-transform">
 			<MyLogo class="h-6 group-hover:rotate-60" />
 			<h1 class="text-2xl font-black md:text-3xl">Khateeb</h1>
 		</a>

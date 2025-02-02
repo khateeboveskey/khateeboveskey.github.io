@@ -14,8 +14,7 @@
 			</div>
 			<div class="flex flex-col justify-between gap-8">
 				<p class="text-xl md:text-2xl">
-					I'm a skilled full-stack developer with 3 year experience, technical trainer, and a former
-					AI & Robotics Yemeni Team member.
+					{{ objective }}
 				</p>
 				<div class="flex w-full flex-col justify-between gap-5 md:flex-row md:gap-0">
 					<SnapInfo v-for="si in snapInfoGroup" :key="si.title" :title="si.title">
@@ -32,19 +31,23 @@
 import MyLogo from '@/components/MyLogo.vue';
 import SnapInfo from '@/components/sections/about/SnapInfo.vue';
 import StatesBar from '@/components/sections/about/StatesBar.vue';
+import { personalInfo, objective } from '@/assets/mydata.json';
+
+const BD = new Date(personalInfo.dateOfBirth);
+const formattedBD = new Intl.DateTimeFormat('en-US', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+}).format(BD);
 
 const snapInfoGroup = [
 	{
 		title: 'Born In',
-		content: 'Yemen, Aden',
-	},
-	{
-		title: 'Experience',
-		content: '3+ Years',
+		content: personalInfo.address,
 	},
 	{
 		title: 'Date of Birth',
-		content: '3 July 2003',
+		content: formattedBD,
 	},
 ];
 </script>

@@ -7,7 +7,7 @@
 				:key="skill.name"
 				class="border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent-background grid aspect-square place-items-center border-2 p-4"
 				:title="skill.name">
-				<i :class="skill.deviconClass" class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl"></i>
+				<i :class="skill.deviconClass" class="text-5xl md:text-6xl lg:text-7xl"></i>
 			</div>
 		</div>
 	</section>

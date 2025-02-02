@@ -1,10 +1,11 @@
 {
 	"isAvailableToWork": true,
+	"objective": "Passionate Full-Stack Developer and Technical Trainer with 3+ years of experience in web development. Seeking a challenging role where I can build scalable applications, enhance user experiences, and contribute to innovative projects while leveraging my expertise in software development.",
 	"personalInfo": {
 		"name": "Abdulrahman S. Al-Khateeb",
 		"occupation": "Full-stack Developer",
 		"dateOfBirth": "2003-7-3",
-		"address": "Aden, Al-Mansoura",
+		"address": "Yemen, Aden, Al-Mansoura",
 		"maritalStatus": "Engaged",
 		"nationality": "Yemeni"
 	},
@@ -107,42 +108,47 @@
 				"startDate": "7/2024",
 				"endDate": "8/2024",
 				"position": "C++ Programming Language Trainer",
+				"category": "Technical Training",
 				"company": "Haravard Aden Institute",
 				"website": "https://www.instagram.com/harvard.aden/",
 				"achievements": [
-					"I trained in C++ language, including its OOP concepts and some additional libraries."
+					"Designed and delivered structured C++ training, covering OOP and advanced libraries."
 				]
 			},
 			{
 				"startDate": "7/2024",
 				"endDate": "8/2024",
-				"position": "Frontend Web Trainer",
+				"position": "Frontend Development Instructor",
+				"category": "Technical Training",
 				"company": "Haravard Aden Institute",
 				"website": "https://www.instagram.com/harvard.aden/",
 				"achievements": [
-					"I trained in HTML, CSS, JS, and Vue Framework in 80 Hours Course.",
-					"Discussed a project for each language, starter project (HTML), mid project (HTML + CSS), and final project (HTML + CSS + JS)."
+					"Conducted an 80-hour course on HTML, CSS, JavaScript, and Vue.js.",
+					"Guided students through hands-on projects, from basic HTML to full interactive web applications."
 				]
 			},
 			{
 				"startDate": "4:00 - 18/6/2024",
 				"endDate": "8:00 - 18/6/2024",
 				"position": "AI Prompt Engineering Trainer",
+				"category": "Technical Training",
 				"company": "Yemedian, Aden Art Space Project",
 				"website": "https://yemedian.org/",
 				"achievements": [
-					"I trained in AI Prompt Engineering concepts like Roles, Few Shot, etc. Introducing popular AI models and techniques, and gathering all models in one summery file, where you can <a class='text-accent-500 hover:underline' target='_blank' href='https://www.linkedin.com/posts/khateeb404_%D8%AC%D9%84%D8%B3%D8%A9-%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%86%D9%88%D9%86-activity-7216904293130375168-0YFD?utm_source=share&utm_medium=member_desktop'>download it from here</a>."
+					"Provided training on AI prompt engineering, covering role-based prompting, few-shot techniques, and AI model applications.",
+					"Compiled <a class='hover:underline' target='_blank' href='https://www.linkedin.com/posts/khateeb404_%D8%AC%D9%84%D8%B3%D8%A9-%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%AA%D9%88%D8%B8%D9%8A%D9%81-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D9%86%D9%88%D9%86-activity-7216904293130375168-0YFD?utm_source=share&utm_medium=member_desktop'>a comprehensive AI models guide</a> for students."
 				]
 			},
 			{
 				"startDate": "7/2023",
 				"endDate": "8/2023",
 				"position": "Full-stack Developer Intern",
+				"category": "Full-stack Development",
 				"company": "You Information Technology",
 				"website": "https://www.you-it.com/",
 				"achievements": [
-					"I expanded the theoretical database of <a class='text-accent-500 hover:underline' target='_blank' href='https://medalah.org'>Medalah</a> website using ERD diagrams and practically created migrations, established relationships, and developed user interfaces",
-					"I improved the interface and user interaction of <a class='text-accent-500 hover:underline' target='_blank' href='https://medalah.org/en/sandbox'>Sandbox Business Incubator</a> website"
+					"Optimized Medalah’s database, enhancing backend scalability with new table structures and relationship models.",
+					"Improved admin panel UI and added new user management features."
 				]
 			}
 		],
@@ -153,7 +159,7 @@
 					"description": "The article explains the Doherty Threshold, which states that systems should respond within 400ms to keep users engaged and productive. It highlights its impact on UX and product design.",
 					"category": "User Experience (UX)",
 					"type": "article",
-					"datePublished": "3-7-2003",
+					"datePublished": "2003-7-3",
 					"url": "https://uxwritingar.com/user-interface/26295",
 					"urlTo": "UX Writing"
 				},
@@ -162,7 +168,7 @@
 					"description": "The article explores the strange behavior of NaN (Not-a-Number) in JavaScript, where `NaN !== NaN`, despite being classified as a Number. It delves into data types, IEEE 754 standards, and how programming languages handle numerical operations.",
 					"category": "Programming",
 					"type": "article",
-					"datePublished": "3-7-2003",
+					"datePublished": "2003-7-3",
 					"url": "https://uxwritingar.com/user-interface/26295",
 					"urlTo": "Linkedin"
 				},
@@ -171,7 +177,7 @@
 					"description": "The article explored Don Norman’s concept for bad design that confuses users, like unclear push/pull doors. Poor design causes user errors, making people blame themselves. Good user-centered design avoids this in everyday objects and digital interfaces.",
 					"category": "User Experience (UX)",
 					"type": "article",
-					"datePublished": "3-7-2003",
+					"datePublished": "2003-7-3",
 					"url": "https://uxwritingar.com/user-interface/26295",
 					"urlTo": "Linkedin"
 				},
@@ -180,7 +186,7 @@
 					"description": "People perceive beautiful designs as easier to use, even if they’re not. This Aesthetic-Usability Effect makes users overlook flaws, as seen in Apple products. However, good design must balance visual appeal with real usability to be truly effective.",
 					"category": "User Experience (UX)",
 					"type": "article",
-					"datePublished": "3-7-2003",
+					"datePublished": "2003-7-3",
 					"url": "https://uxwritingar.com/user-interface/26295",
 					"urlTo": "Linkedin"
 				},
@@ -189,7 +195,7 @@
 					"description": "People perceive beautiful designs as easier to use, even if they’re not. This Aesthetic-Usability Effect makes users overlook flaws, as seen in Apple products. However, good design must balance visual appeal with real usability to be truly effective.",
 					"category": "Artificial Intelligence (AI)",
 					"type": "article",
-					"datePublished": "3-7-2003",
+					"datePublished": "2003-7-3",
 					"url": "https://www.linkedin.com/pulse/%D8%A7%D9%86%D9%87%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D9%86%D9%85%D9%88%D8%B0%D8%AC-%D9%83%D9%8A%D9%81-%D9%8A%D9%85%D9%83%D9%86-%D8%A3%D9%86-%D8%AA%D9%86%D8%AA%D9%87%D9%8A-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%AD%D8%B1%D9%81%D9%8A%D8%A7-a-rahman-al-khateeb-z9xgf/",
 					"urlTo": "Linkedin"
 				},
@@ -198,7 +204,7 @@
 					"description": "Literature & Poetry",
 					"category": "Literature & Poetry",
 					"type": "book",
-					"datePublished": "3-7-2003",
+					"datePublished": "2003-7-3",
 					"url": "https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-48-%D8%B3%D8%A7%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%8A%D9%88%D9%85-pdf",
 					"urlTo": "Noor Books"
 				}

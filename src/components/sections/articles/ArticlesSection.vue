@@ -12,7 +12,13 @@
 							{{ article.category }}
 							<span
 								class="text-accent-foreground group-hover:text-accent-background ml-2 opacity-50">
-								{{ article.datePublished }}
+								{{
+									new Intl.DateTimeFormat('en-US', {
+										year: 'numeric',
+										month: 'long',
+										day: 'numeric',
+									}).format(new Date(article.datePublished))
+								}}
 							</span>
 						</div>
 						<h3 class="line-clamp-2 text-xl font-bold md:text-2xl">{{ article.title }}</h3>

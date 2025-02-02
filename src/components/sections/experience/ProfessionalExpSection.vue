@@ -9,7 +9,7 @@
 					:company-url="exp.website"
 					:order="index + 1"
 					:year="parseInt(exp.startDate.slice(-4))"
-					:category="'test'"
+					:category="exp.category"
 					class="w-full transition-all duration-300" />
 			</li>
 		</ul>

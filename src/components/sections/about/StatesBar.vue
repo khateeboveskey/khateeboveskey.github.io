@@ -5,27 +5,33 @@
 			class="even:bg-accent-foreground even:text-accent-background grid place-items-center p-3 sm:p-4 md:p-5"
 			v-for="(si, index) in snapInfoGroup"
 			:key="index">
-			<span class="mb-1 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-				{{ si.content }}
+			<span class="mb-3 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+				{{ si.content }}+
 			</span>
-			<span class="text-sm uppercase sm:text-base md:text-lg lg:text-xl">{{ si.title }}</span>
+			<span class="text-center text-sm tracking-wider uppercase sm:text-base md:text-lg lg:text-xl">
+				{{ si.title }}
+			</span>
 		</div>
 	</div>
 </template>
 
 <script setup lang="ts">
+import { projects } from '@/assets/mydata.json';
+
+const experienceYears: number = new Date().getFullYear() - projects[projects.length - 1].year;
+
 const snapInfoGroup = [
 	{
-		title: 'Born In',
-		content: '8+',
+		title: 'Projects',
+		content: projects.length,
 	},
 	{
-		title: 'Experience',
-		content: '3+',
+		title: 'Years Experience',
+		content: `${experienceYears}`,
 	},
 	{
-		title: 'Date of Birth',
-		content: '18+',
+		title: 'Student Trained',
+		content: '50',
 	},
 ];
 </script>

@@ -22,8 +22,7 @@
 				<div class="space-y-4">
 					<h2 class="text-lg font-semibold">About Me</h2>
 					<p class="text-sm leading-relaxed text-neutral-300 md:text-base">
-						I'm a skilled full-stack developer with 3 years of experience, technical trainer, and a
-						former AI & Robotics Yemeni Team member.
+						{{ objective.split('.')[0] }}.
 					</p>
 				</div>
 
@@ -50,5 +49,5 @@
 
 <script setup lang="ts">
 import MyLogo from '@/components/MyLogo.vue';
-import { accounts } from '@/assets/mydata.json';
+import { accounts, objective } from '@/assets/mydata.json';
 </script>

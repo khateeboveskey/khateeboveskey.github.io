@@ -10,7 +10,7 @@
 				based in Yemen
 			</h1>
 			<p class="mb-6 text-base opacity-90 sm:mb-8 sm:text-lg md:text-2xl">
-				I code, design, and do good stuff.
+				I code, train, and do good stuff.
 			</p>
 			<CTAButton text="Got an idea?" class="w-full sm:w-auto" />
 		</div>

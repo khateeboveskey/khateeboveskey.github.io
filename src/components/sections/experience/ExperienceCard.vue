@@ -16,7 +16,8 @@
 			</span>
 		</span>
 		<!-- Year -->
-		<span class="flex flex-row gap-2 text-base font-medium sm:gap-3 sm:text-lg md:gap-4">
+		<span
+			class="flex w-full flex-row justify-between gap-2 text-base font-medium sm:gap-3 sm:text-lg md:w-auto md:gap-4">
 			<span class="tracking-wider uppercase">{{ props.category }}</span>
 			<span class="text-accent">{{ props.year }}</span>
 		</span>

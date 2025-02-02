@@ -11,8 +11,8 @@
 				</h2>
 			</div>
 			<a
-				href="resume.pdf"
-				class="border-accent-foreground hover:bg-accent hover:text-accent-background hover:border-accent focus:ring-accent inline-flex items-center gap-2 border-2 px-6 py-3 text-base font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-none"
+				href="resume-v2.0.pdf"
+				class="border-accent-foreground hover:bg-accent hover:text-accent-background hover:border-accent inline-flex items-center gap-2 border-2 px-6 py-3 text-base font-medium transition-colors duration-200"
 				rel="noopener noreferrer">
 				<span>Download Resume</span>
 				<svg
