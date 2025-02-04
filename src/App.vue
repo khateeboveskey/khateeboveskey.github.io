@@ -6,6 +6,7 @@
 	<ProfessionalExpSection />
 	<ArticlesSection />
 	<SkillsSection />
+  <ProjectsSection />
 	<ResumeSection />
 	<FooterComp />
 </template>
@@ -19,5 +20,6 @@ import ProfessionalExpSection from '@/components/sections/experience/Professiona
 import ArticlesSection from '@/components/sections/articles/ArticlesSection.vue';
 import SkillsSection from '@/components/sections/SkillsSection.vue';
 import ResumeSection from '@/components/sections/ResumeSection.vue';
+import ProjectsSection from '@/components/sections/projects/ProjectsSection.vue';
 import FooterComp from '@/components/FooterComp.vue';
 </script>

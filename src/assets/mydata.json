@@ -310,7 +310,7 @@
 			"name": "Ministry of Health E-Governement",
 			"type": "Website",
 			"year": 2022,
-			"stack": ["HTML", "CSS", "JS"],
+			"stack": ["HTML", "CSS", "JavaScript"],
 			"githubRepo": null
 		}
 	],
