@@ -2,11 +2,11 @@
 	<section class="">
 		<div class="container mx-auto px-4">
 			<SectionHeader subtitle="What I've Made">Projects</SectionHeader>
-			<p class="text-accent m-5 text-center">Tap to get to GitHub repo</p>
+			<p class="text-accent mb-5 text-center">Tap to get to GitHub repo</p>
 			<div class="grid grid-cols-1 gap-4 sm:gap-6 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
 				<a
 					v-for="(project, index) in projects"
-					:href="project.githubRepo"
+					:href="project.githubRepo ?? '/'"
 					:key="index"
 					class="group border-accent-foreground hover:bg-accent-foreground hover:text-accent-background flex flex-col justify-between gap-4 border-2 p-3 sm:gap-6 sm:p-4 md:gap-8 md:p-5">
 					<div class="flex items-start justify-between">
