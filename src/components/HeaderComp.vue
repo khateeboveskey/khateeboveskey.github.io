@@ -44,7 +44,7 @@
 
 <script setup lang="ts">
 import CTAButton from '@/components/CTAButton.vue';
-import NavLink from './header/NavLink.vue';
+import NavLink from '@/components/header/NavLink.vue';
 import MyLogo from '@/components/MyLogo.vue';
 import { ref } from 'vue';
 
