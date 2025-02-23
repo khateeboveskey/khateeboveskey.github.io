@@ -17,3 +17,4 @@ jobs:
                   token: ${{ secrets.GITHUB_TOKEN }}
                   gitemail: 'khateeboveskey@gmail.com'
                   gitname: 'khateeboveskey'
+                  cname: 'khateeb.is-a.dev'
