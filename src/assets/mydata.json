@@ -279,11 +279,18 @@
 			"githubRepo": "https://github.com/khateeboveskey/zameel"
 		},
 		{
+			"name": "Awam E-Book Library",
+			"type": "Web App",
+			"year": 2024,
+			"stack": ["Laravel", "TailwindCSS"],
+			"githubRepo": "https://github.com/khateeboveskey/awam-ebooks-library"
+		},
+		{
 			"name": "Khateeb's Portfolio",
 			"type": "Website",
 			"year": 2024,
 			"stack": ["TailwindCSS", "Vue", "TypeScript"],
-			"githubRepo": "https://github.com/khateeboveskey/khateeb-portfolio"
+			"githubRepo": "https://github.com/khateeboveskey/khateeboveskey.github.io"
 		},
 		{
 			"name": "Mersal CRM API Client",
@@ -296,7 +303,7 @@
 			"name": "Balqis Association Official Website",
 			"type": "Website",
 			"year": 2023,
-			"stack": ["HTML", "TailwindCSS"],
+			"stack": ["Vue", "TailwindCSS"],
 			"githubRepo": "https://github.com/khateeboveskey/balqis-association"
 		},
 		{
