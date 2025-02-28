@@ -20,10 +20,10 @@
 					<NavLink to="/">Home</NavLink>
 				</li>
 				<li>
-					<NavLink to="/">About</NavLink>
+					<NavLink to="#about">About</NavLink>
 				</li>
 				<li>
-					<NavLink to="/">Projects</NavLink>
+					<NavLink to="#projects">Projects</NavLink>
 				</li>
 				<li>
 					<NavLink to="/">Contact</NavLink>
