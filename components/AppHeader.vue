@@ -1,9 +1,6 @@
 <template>
 	<header class="flex flex-row items-center justify-between px-4 py-4 md:px-32 md:py-8">
-		<a href="/" class="group flex flex-row items-center gap-2 *:transition-transform text-2xl font-black md:text-3xl">
-			<MyLogo class="text-accent text-2xl translate-y-0.5 group-hover:rotate-60" />
-			<h1 class="text-2xl font-black md:text-3xl">Khateeb</h1>
-		</a>
+		<MyLogo with-name />
 
 		<!-- Hamburger Menu Button -->
 		<button @click="toggleMenu" class="md:hidden">
@@ -43,8 +40,6 @@
 </template>
 
 <script setup lang="ts">
-import MyLogo from 'assets/logo.svg'
-
 const isMenuOpen = ref(false);
 
 const toggleMenu = () => {

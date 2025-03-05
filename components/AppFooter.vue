@@ -4,10 +4,7 @@
 			<div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
 				<!-- Brand Section -->
 				<div class="flex flex-col justify-between space-y-4">
-					<a href="/" class="group inline-flex w-fit items-center gap-3 transition-transform">
-						<MyLogo class="text-accent text-2xl translate-y-0.5 group-hover:rotate-60 duration-200" />
-						<h1 class="text-2xl font-black md:text-3xl">Khateeb</h1>
-					</a>
+					<MyLogo with-name />
 					<p class="text-sm text-neutral-300">
 						Crafting digital experiences with passion and precision.
 					</p>
@@ -42,7 +39,6 @@
 
 <script setup lang="ts">
 import { accounts, objective } from 'assets/mydata.json';
-import MyLogo from 'assets/logo.svg'
 
 useHead({
 	link: [
