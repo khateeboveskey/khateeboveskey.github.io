@@ -1,5 +1,13 @@
 <template>
-  <div>ad</div>
+  <HeroSection />
+  <TitlesBar />
+  <AboutSection />
+  <ProfessionalExpSection />
+  <ArticlesSection />
+  <SkillsSection />
+  <ProjectsSection />
+  <SocialProofSection />
+  <ResumeSection />
 </template>
 
 <script setup lang="ts">
