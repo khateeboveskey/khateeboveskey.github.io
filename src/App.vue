@@ -7,6 +7,7 @@
 	<ArticlesSection />
 	<SkillsSection />
   <ProjectsSection />
+	<SocialProofSection />
 	<ResumeSection />
 	<FooterComp />
 </template>
@@ -21,5 +22,6 @@ import ArticlesSection from '@/components/sections/articles/ArticlesSection.vue'
 import SkillsSection from '@/components/sections/SkillsSection.vue';
 import ResumeSection from '@/components/sections/ResumeSection.vue';
 import ProjectsSection from '@/components/sections/projects/ProjectsSection.vue';
+import SocialProofSection from '@/components/sections/social-proof/SocialProofSection.vue';
 import FooterComp from '@/components/FooterComp.vue';
 </script>
