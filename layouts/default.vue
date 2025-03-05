@@ -8,7 +8,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: "Home",
   meta: [
     { name: 'author', content: 'Abdulrahman Al-Khateeb' },
     { name: 'description', content: 'Crafting digital experiences with passion and precision.' },
