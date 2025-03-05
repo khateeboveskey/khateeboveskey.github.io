@@ -23,14 +23,6 @@
 		],
 		"hard": [
 			{
-				"name": "HTML",
-				"deviconClass": "devicon-html5-plain"
-			},
-			{
-				"name": "CSS",
-				"deviconClass": "devicon-css3-plain"
-			},
-			{
 				"name": "Sass",
 				"deviconClass": "devicon-sass-original"
 			},
@@ -43,16 +35,16 @@
 				"deviconClass": "devicon-tailwindcss-original"
 			},
 			{
-				"name": "JavaScript",
-				"deviconClass": "devicon-javascript-plain"
-			},
-			{
 				"name": "TypeScript",
 				"deviconClass": "devicon-typescript-plain"
 			},
 			{
 				"name": "Vue",
 				"deviconClass": "devicon-vuejs-plain"
+			},
+			{
+				"name": "Nuxt",
+				"deviconClass": "devicon-nuxtjs-plain"
 			},
 			{
 				"name": "React",
@@ -69,6 +61,14 @@
 			{
 				"name": "Laravel",
 				"deviconClass": "devicon-laravel-original"
+			},
+			{
+				"name": "Git",
+				"deviconClass": "devicon-git-plain"
+			},
+			{
+				"name": "GitHub",
+				"deviconClass": "devicon-github-original"
 			}
 		]
 	},
@@ -289,14 +289,14 @@
 			"name": "Khateeb's Portfolio",
 			"type": "Website",
 			"year": 2024,
-			"stack": ["TailwindCSS", "Vue", "TypeScript"],
+			"stack": ["Vue", "TypeScript", "TailwindCSS"],
 			"githubRepo": "https://github.com/khateeboveskey/khateeboveskey.github.io"
 		},
 		{
 			"name": "Mersal CRM API Client",
 			"type": "Web App",
 			"year": 2024,
-			"stack": ["TailwindCSS", "Vue"],
+			"stack": ["Vue", "TailwindCSS"],
 			"githubRepo": "https://github.com/khateeboveskey/mersal-crms"
 		},
 		{
@@ -310,14 +310,14 @@
 			"name": "Morse Code Translator",
 			"type": "Desktop App",
 			"year": 2023,
-			"stack": ["Visual C#"],
+			"stack": ["CSharp"],
 			"githubRepo": "https://github.com/khateeboveskey/winform-morse-code-translator"
 		},
 		{
 			"name": "Ministry of Health E-Governement",
 			"type": "Website",
 			"year": 2022,
-			"stack": ["HTML", "CSS", "JavaScript"],
+			"stack": ["HTML5", "CSS3", "JavaScript"],
 			"githubRepo": null
 		}
 	],

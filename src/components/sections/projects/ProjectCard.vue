@@ -30,6 +30,6 @@ const props = defineProps({
 import { skills } from '@/assets/mydata.json';
 
 function getDevIcon(name: string): string {
-  return skills.hard.find((skill) => skill.name === name)?.deviconClass ?? 'devicon-csharp-plain';
+  return skills.hard.find((skill) => skill.name === name)?.deviconClass ?? `devicon-${name.toLowerCase()}-plain`;
 }
 </script>
