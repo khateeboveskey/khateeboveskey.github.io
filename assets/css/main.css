@@ -14,10 +14,10 @@
 	@apply selection:bg-accent;
 }
 
-#vue-inspector-container,
+/* #vue-inspector-container,
 #__vue-devtools-container__ {
 	display: none !important;
-}
+} */
 
 html {
 	scroll-behavior: smooth;
