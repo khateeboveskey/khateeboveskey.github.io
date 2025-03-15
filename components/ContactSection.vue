@@ -15,16 +15,23 @@
       </div>
     </div>
     <div class="w-full md:flex-1/2">
-      <form action="https://formspree.io/f/xovevjzq" method="POST" class="flex flex-col gap-4">
+      <form action="https://formspree.io/f/xovevjzq" method="POST" class="flex flex-col gap-4" @submit="validateForm">
         <label class="flex flex-col text-white">
           Your email:
-          <input type="email" name="email" class="mt-2 p-2 bg-accent-background/10 border border-accent-background/20 text-white focus:outline-none focus:border-accent-background w-full">
+          <input type="email" name="email" v-model="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="mt-2 p-2 bg-accent-background/10 border border-accent-background/20 text-white focus:outline-none focus:border-accent-background w-full">
+          <span class="text-white/75 text-sm mt-1" v-if="!isEmailValid && email">Please enter a valid email address</span>
         </label>
         <label class="flex flex-col text-white">
           Your message:
-          <textarea name="message" @input="checkDirection" :dir="messageDirection" :class="['mt-2 p-2 bg-accent-background/10 border border-accent-background/20 text-white focus:outline-none focus:border-accent-background h-32 w-full', { 'font-ibm-arabic': messageDirection === 'rtl' }]"></textarea>
+          <textarea name="message" v-model="message" required minlength="10" @input="checkDirection" :dir="messageDirection" :class="['mt-2 p-2 bg-accent-background/10 border border-accent-background/20 text-white focus:outline-none focus:border-accent-background h-32 w-full', { 'font-ibm-arabic': messageDirection === 'rtl' }]"></textarea>
+          <span class="text-white/75 text-sm mt-1" v-if="!isMessageValid && message">Message must be at least 10 characters long</span>
         </label>
-        <button type="submit" class="mt-4 bg-accent-background text-accent hover:cursor-pointer py-2 px-6 hover:bg-accent-background/80 transition-colors w-full md:w-auto">Send</button>
+        <button type="submit" :disabled="!isFormValid" :class="[
+          'mt-4 py-2 px-6 transition-colors w-full md:w-auto',
+          isFormValid
+            ? 'bg-accent-background text-accent hover:bg-accent-background/80 hover:cursor-pointer'
+            : 'bg-accent-background/50 text-accent/50 cursor-not-allowed'
+        ]">Send</button>
       </form>
     </div>
   </section>
@@ -32,9 +39,24 @@
 
 <script setup lang="ts">
 import { accounts } from 'assets/mydata.json';
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 
 const messageDirection = ref('ltr');
+const email = ref('');
+const message = ref('');
+
+const isEmailValid = computed(() => {
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return emailRegex.test(email.value);
+});
+
+const isMessageValid = computed(() => {
+  return message.value.length >= 10;
+});
+
+const isFormValid = computed(() => {
+  return isEmailValid.value && isMessageValid.value && email.value && message.value;
+});
 
 const checkDirection = (event: Event) => {
   const text = (event.target as HTMLTextAreaElement).value;
