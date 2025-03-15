@@ -7,6 +7,7 @@
   <SkillsSection />
   <ProjectsSection />
   <SocialProofSection />
+  <ContactSection />
   <ResumeSection />
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-accent-background-muted mt-32 py-16">
+	<section class="bg-accent-background-muted mt-32 py-16 pt-32">
 		<div class="container mx-auto flex flex-col items-center gap-8 px-4 md:flex-row md:justify-between md:px-8">
 			<div class="text-center md:text-left">
 				<h3 class="text-accent-foreground/80 mb-2 text-lg font-medium md:text-xl">

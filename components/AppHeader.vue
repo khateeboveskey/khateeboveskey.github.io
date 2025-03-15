@@ -23,7 +23,7 @@
 					<NavLink to="#projects">Projects</NavLink>
 				</li>
 				<li>
-					<NavLink to="/">Contact</NavLink>
+					<NavLink to="#contact">Contact</NavLink>
 				</li>
 			</ul>
 		</nav>

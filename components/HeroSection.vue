@@ -1,13 +1,10 @@
 <template>
-	<section
-		class="flex flex-col items-center justify-between px-4 pt-4 sm:pt-12 md:flex-row md:px-32 md:pt-8">
+	<section class="flex flex-col items-center justify-between px-4 pt-4 sm:pt-12 md:flex-row md:px-32 md:pt-8">
 		<div class="mb-8 text-center md:mb-12 md:w-1/3 md:text-left">
 			<h1 class="m-4 mb-4 text-3xl font-bold sm:m-0 sm:mb-6 sm:text-4xl md:text-4xl lg:text-5xl">
-				Hi, I'm Khateeb.
-				<br />
-				A Full-stack Developer
+				Hi, I'm Khateeb. A Full-stack Developer
 				<MyLogo class="inline-block h-5 -translate-y-1 sm:h-6 md:h-8 lg:h-10" />
-				based in Yemen
+				Who Loves to Code.
 			</h1>
 			<p class="mb-6 text-base opacity-90 sm:mb-8 sm:text-lg md:text-2xl">
 				I code, train, and do good stuff.
