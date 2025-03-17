@@ -3,10 +3,10 @@
   <TitlesBar />
   <AboutSection />
   <ProfessionalExpSection />
-  <ArticlesSection />
   <SkillsSection />
   <ProjectsSection />
   <SocialProofSection />
+  <ArticlesSection />
   <ContactSection />
   <ResumeSection />
 </template>

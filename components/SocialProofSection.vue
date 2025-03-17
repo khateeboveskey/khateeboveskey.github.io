@@ -1,8 +1,8 @@
 <template>
   <section class="px-4 md:px-8 lg:px-16 xl:px-32">
     <SectionHeader subtitle="What greate people say about me">Social Proof</SectionHeader>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mt-8">
-      <div v-for="(reference, index) in socialProof" :key="index" class="bg-accent-background-muted flex flex-col">
+    <div class="flex flex-column md:flex-row gap-4 sm:gap-6 lg:gap-8 mt-8 justify-center">
+      <div v-for="(reference, index) in socialProof" :key="index" class="bg-accent-background-muted flex flex-col w-4/5 md:w-1/2 lg:w-1/3">
         <div class="bg-accent p-4 sm:p-5">
           <h4 class="text-xl sm:text-2xl font-bold text-white mb-2 text-center">{{ reference.name }}</h4>
           <span class="text-xs sm:text-sm text-white font-lighter block text-center">{{ reference.degree }}</span>

@@ -22,8 +22,13 @@ useSeoMeta({
 @reference 'assets/css/main.css';
 
 .prose {
-  a:not(h1, h2, h3, h4) {
+  a {
     @apply text-accent underline hover:opacity-80;
+  }
+
+
+  h1 {
+    @apply text-4xl;
   }
 
   h1,
@@ -47,15 +52,28 @@ useSeoMeta({
   }
 
   code {
-    @apply text-accent;
+    @apply text-accent selection:text-white;
   }
 
   pre {
-    @apply bg-accent-foreground text-accent-background p-4 my-4 block rounded-lg overflow-x-scroll;
+    @apply bg-[#23272e] p-4 my-4 block rounded-lg overflow-x-scroll selection:bg-[#191c21];
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
   }
 
   ul {
     @apply list-disc ms-6
   }
+
+  img {
+    @apply mx-auto rounded-lg;
+  }
+
 }
 </style>
