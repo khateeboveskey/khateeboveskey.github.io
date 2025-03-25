@@ -13,7 +13,7 @@
 		</div>
 		<div class="relative w-full md:me-14 md:w-1/2">
 			<MyLogo class="stroke-accent absolute inset-0 z-0 h-full w-full overflow-visible fill-transparent stroke-20" />
-			<NuxtImg preload src="/imgs/me.png" alt="Me" class="relative mx-auto saturate-0" sizes="sm:300px md:384px" />
+			<NuxtImg quality="50" format="webp" preload src="/imgs/me.png" alt="Me" class="relative mx-auto saturate-0" sizes="sm:300px md:384px" />
 		</div>
 	</section>
 </template>
