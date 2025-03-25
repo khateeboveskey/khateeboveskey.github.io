@@ -15,7 +15,6 @@ useHead({
   ],
   titleTemplate: '%s | Khateeb',
   link: [
-    { rel: 'icon', type: 'image/svg+xml', href: 'assets/logo.svg' },
     { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' },
   ]
 });
