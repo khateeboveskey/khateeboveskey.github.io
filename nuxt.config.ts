@@ -20,11 +20,15 @@ export default defineNuxtConfig({
       }
     },
   },
+  image: {
+    quality: 80,
+    format: ['webp']
+  }
   vite: {
     plugins: [
       tailwindcss(),
     ],
   },
 
-  modules: ['nuxt-svgo', '@nuxt/content'],
+  modules: ['nuxt-svgo', '@nuxt/content', '@nuxt/image'],
 })

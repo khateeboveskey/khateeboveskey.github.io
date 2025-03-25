@@ -12,12 +12,8 @@
 			<CTAButton text="Got an idea?" class="w-full sm:w-auto" />
 		</div>
 		<div class="relative w-full md:me-14 md:w-1/2">
-			<MyLogo
-				class="stroke-accent absolute inset-0 z-0 h-full w-full overflow-visible fill-transparent stroke-20" />
-			<img
-				src="@/assets/me.png"
-				alt="Me"
-				class="relative mx-auto w-full max-w-[300px] saturate-0 sm:max-w-[300px] md:max-w-sm" />
+			<MyLogo class="stroke-accent absolute inset-0 z-0 h-full w-full overflow-visible fill-transparent stroke-20" />
+			<NuxtImg src="@/assets/me.png" alt="Me" class="relative mx-auto w-full max-w-[300px] saturate-0 sm:max-w-[300px] md:max-w-sm" />
 		</div>
 	</section>
 </template>
