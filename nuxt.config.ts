@@ -19,6 +19,13 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-
-  modules: ['nuxt-svgo', '@nuxt/content', '@nuxt/image'],
+  lucide: {
+    namePrefix: 'Icon'
+  },
+  modules: [
+    'nuxt-svgo',
+    '@nuxt/content',
+    '@nuxt/image',
+    'nuxt-lucide-icons',
+  ],
 })

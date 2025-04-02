@@ -276,49 +276,56 @@
 			"type": "Mobile App",
 			"year": 2024,
 			"stack": ["React Native", "TypeScript"],
-			"githubRepo": "https://github.com/khateeboveskey/zameel"
+			"githubRepo": "https://github.com/khateeboveskey/zameel",
+			"image": "zameel.png"
 		},
 		{
 			"name": "Awam E-Book Library",
 			"type": "Web App",
 			"year": 2024,
 			"stack": ["Laravel", "TailwindCSS"],
-			"githubRepo": "https://github.com/khateeboveskey/awam-ebooks-library"
+			"githubRepo": "https://github.com/khateeboveskey/awam-ebooks-library",
+			"image": "awam-ebooks-library.png"
 		},
 		{
 			"name": "Khateeb's Portfolio",
 			"type": "Website",
 			"year": 2024,
 			"stack": ["Vue", "TypeScript", "TailwindCSS"],
-			"githubRepo": "https://github.com/khateeboveskey/khateeboveskey.github.io"
+			"githubRepo": "https://github.com/khateeboveskey/khateeboveskey.github.io",
+			"image": "khateeboveskey.github.io.png"
 		},
 		{
 			"name": "Mersal CRM API Client",
 			"type": "Web App",
 			"year": 2024,
 			"stack": ["Vue", "TailwindCSS"],
-			"githubRepo": "https://github.com/khateeboveskey/mersal-crms"
+			"githubRepo": "https://github.com/khateeboveskey/mersal-crms",
+			"image": "mersal-crms.png"
 		},
 		{
-			"name": "Balqis Association Official Website",
+			"name": "Balqis Association",
 			"type": "Website",
 			"year": 2023,
 			"stack": ["Vue", "TailwindCSS"],
-			"githubRepo": "https://github.com/khateeboveskey/balqis-association"
+			"githubRepo": "https://github.com/khateeboveskey/balqis-association",
+			"image": "balqis-association.png"
 		},
 		{
 			"name": "Morse Code Translator",
 			"type": "Desktop App",
 			"year": 2023,
 			"stack": ["CSharp"],
-			"githubRepo": "https://github.com/khateeboveskey/winform-morse-code-translator"
+			"githubRepo": "https://github.com/khateeboveskey/winform-morse-code-translator",
+			"image": "winform-morse-code-translator.png"
 		},
 		{
-			"name": "Ministry of Health E-Governement",
+			"name": "Ministry of Health",
 			"type": "Website",
 			"year": 2022,
 			"stack": ["HTML5", "CSS3", "JavaScript"],
-			"githubRepo": null
+			"githubRepo": null,
+			"image": "moh.png"
 		}
 	],
 	"courses": [
